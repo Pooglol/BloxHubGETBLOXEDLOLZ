@@ -76,6 +76,9 @@ message.Parent = workspace
 task.wait(6)
 message:Destroy()
 ```
+```lua
+local message = Instance.new("Message") message.Text = "Hi I am the owner" message.Parent = workspace task.wait(6) message:Destroy()
+```
 
 # Hint
 ```lua
@@ -85,4 +88,7 @@ message.Parent = workspace
 
 task.wait(6)
 message:Destroy()
+```
+```lua
+local message = Instance.new("Hint") message.Text = "Hi I am the owner" message.Parent = workspace task.wait(6) message:Destroy()
 ```
