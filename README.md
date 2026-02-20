@@ -92,8 +92,8 @@ message:Destroy()
 ```lua
 local message = Instance.new("Hint") message.Text = "Hi I am the owner" message.Parent = workspace task.wait(6) message:Destroy()
 ```
-
-Fling Command (/e fling <user/display>)
+# Fling Command
+(/e fling <user/display>)
 
 ```lua
 local Players = game:GetService("Players")
